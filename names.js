@@ -1,12 +1,15 @@
 
 function fullName(inFirstName, inLastName) {
 
-    return
-    {
-       FirstName 
+    return {
+        firstName: inFirstName,
 
-        lastName
+        lastName: inLastName
 
-    }
+    };
     
 }
+
+// console.log(fullName("Alessandro", "Sartini" ));
+
+module.exports = fullName;
