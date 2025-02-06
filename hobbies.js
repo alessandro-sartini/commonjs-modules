@@ -1,6 +1,6 @@
-function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
+function hobbies(...hobbys) {
   const hobbies = [];
-  hobbies.push(hobbyOne, hobbyTwo, hobbyThree);
+  hobbies.push(... hobbys);
   return hobbies;
 }
 
