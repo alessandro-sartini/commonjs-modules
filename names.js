@@ -10,6 +10,6 @@ function fullName(inFirstName, inLastName) {
     
 }
 
-// console.log(fullName("Alessandro", "Sartini" ));
+fullName("Alessandro", "Sartini" );
 
 module.exports = fullName;

@@ -4,7 +4,7 @@ function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
   return hobbies;
 }
 
-// hobbies('mangiare', 'dormire', 'salutare')
+hobbies('mangiare', 'dormire', 'salutare')
 
 // console.log(hobbies("mangiare", "dormire", "salutare"));
 
